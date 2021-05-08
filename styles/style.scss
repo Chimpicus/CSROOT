@@ -53,6 +53,10 @@ h2 {
 	margin: 5% auto;
 }
 
+.title-heading {
+	font-size: 5rem;
+}
+
 .logo {
 	margin: auto;
 	padding-left: 10%;
@@ -72,20 +76,31 @@ h2 {
 
 @media (max-width: 600px) {
 
+	.contact-icon {
+		font-size: 1rem;
+		margin: 0.5rem;
+	}
+
 	// Title
 	.title {
-		margin: auto;
-		padding: 1rem 4rem;
 		margin: 5% auto;
+		padding: 1rem 0;
+
+	}
+
+	.title-heading {
+		font-size: 3rem;
 	}
 
 	.logo {
-		margin: auto;
+		margin: 10% auto;
+		padding: 0;
 
 	}
 
 	.header {
-		margin: auto;
+		margin: 10% auto;
+		padding: 0;
 
 	}
 }
