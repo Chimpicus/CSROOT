@@ -12,12 +12,12 @@ body {
 }
 
 h1 {
-	font-size: 5rem;
+
 	font-weight: 800;
 }
 
 h2 {
-	font-size: 2.1rem;
+
 	font-weight: 400;
 }
 
@@ -64,9 +64,28 @@ h2 {
 }
 
 .tagline {
-	font-size: 1.5rem;
 	margin: 5% auto;
 	text-align: center;
 	width: 40%;
 
+}
+
+@media (max-width: 600px) {
+
+	// Title
+	.title {
+		margin: auto;
+		padding: 1rem 4rem;
+		margin: 5% auto;
+	}
+
+	.logo {
+		margin: auto;
+
+	}
+
+	.header {
+		margin: auto;
+
+	}
 }
