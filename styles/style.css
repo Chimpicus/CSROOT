@@ -1,0 +1,62 @@
+body {
+  color: #5c5a5b;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 3rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+
+.text-accent {
+  color: #60aee0;
+}
+
+.contact-icon {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.contact-icon:hover {
+  color: #90bf3e;
+}
+
+.hori-rule {
+  background-color: #ffff;
+  border: 0;
+  border-bottom: 15px dotted #90bf3e;
+  margin: auto;
+  width: 15%;
+}
+
+.title {
+  margin: auto;
+  padding: 1rem 4rem;
+  margin: 5% auto;
+}
+
+.logo {
+  margin: auto;
+  padding-left: 10%;
+}
+
+.header {
+  margin: auto;
+  padding-right: 10%;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  margin: 5% auto;
+  text-align: center;
+  width: 40%;
+}
+
+/*# sourceMappingURL=style.css.map */
