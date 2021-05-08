@@ -40,6 +40,10 @@ h2 {
   margin: 5% auto;
 }
 
+.title-heading {
+  font-size: 5rem;
+}
+
 .logo {
   margin: auto;
   padding-left: 10%;
@@ -62,11 +66,18 @@ h2 {
     padding: 1rem 4rem;
     margin: 5% auto;
   }
+
+  .title-heading {
+    font-size: 2.5;
+  }
+
   .logo {
     margin: auto;
   }
+
   .header {
     margin: auto;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
