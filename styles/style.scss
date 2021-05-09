@@ -39,10 +39,9 @@ p {
 	background-color: #ffff;
 	border: 0;
 	border-bottom: 15px dotted $green;
-	margin: auto;
+	margin: 0 auto;
 	opacity: .7;
 	width: 15%;
-
 }
 
 // --- Title ---
@@ -99,13 +98,13 @@ p {
 // --- showcase ---
 
 .showcase-carousel {
-	margin: 50px 0;
+	margin: 5% 0;
 }
 
 .showcase-image {
 	border-radius: 10px;
 	height: 20rem;
-	margin: auto auto;
+
 }
 
 // --- contact ---

@@ -25,7 +25,7 @@ p {
   background-color: #ffff;
   border: 0;
   border-bottom: 15px dotted #90bf3e;
-  margin: auto;
+  margin: 0 auto;
   opacity: .7;
   width: 15%;
 }
@@ -77,13 +77,12 @@ p {
 }
 
 .showcase-carousel {
-  margin: 50px 0;
+  margin: 5% 0;
 }
 
 .showcase-image {
   border-radius: 10px;
   height: 20rem;
-  margin: auto auto;
 }
 
 .contact {
