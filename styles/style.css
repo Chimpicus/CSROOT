@@ -1,7 +1,9 @@
 body {
   color: #5c5a5b;
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
   text-align: center;
+  padding: 0;
   width: 100%;
 }
 
@@ -109,6 +111,7 @@ p {
 @media (max-width: 991px) {
   body {
     margin: 0;
+    padding: 0;
   }
   .contact-icon {
     font-size: 1rem;
