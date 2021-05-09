@@ -1,14 +1,16 @@
-// Colors
+// --- Colors ---
 $green: #90bf3e;
 $blue: #60aee0;
 $blueGreen: #27b5c3;
 $textColor: #5c5a5b;
 
+
+// --- Elements ---
 body {
 	color: $textColor;
 	font-family: 'Montserrat', sans-serif;
-	margin: 0 3rem;
 	text-align: center;
+
 }
 
 h1 {
@@ -21,36 +23,34 @@ h2 {
 	font-weight: 400;
 }
 
-
+// --- Globals ---
 
 .text-accent {
 	color: $blue;
 }
 
-.contact-icon {
-	font-size: 2rem;
-	margin: 1rem;
-}
-
-.contact-icon:hover {
-	color: $green
-}
 
 .hori-rule {
 	background-color: #ffff;
 	border: 0;
 	border-bottom: 15px dotted $green;
 	margin: auto;
+	opacity: .7;
 	width: 15%;
 
 }
 
+// --- Title ---
 
-// Title
 .title {
 	margin: auto;
 	padding: 1rem 4rem;
 	margin: 5% auto 0;
+}
+
+.logo {
+	margin: auto;
+	padding-left: 10%;
 }
 
 .title-heading {
@@ -58,10 +58,17 @@ h2 {
 	margin: 0;
 }
 
-.logo {
-	margin: auto;
-	padding-left: 10%;
+.title-icon {
+	font-size: 2rem;
+	margin: 1rem;
 }
+
+.title-icon:hover {
+	color: $green
+}
+
+
+
 
 .title-image {
 	border: 5px solid $textColor;
@@ -78,12 +85,37 @@ h2 {
 }
 
 .tagline {
-	font-size: 1rem;
+	font-size: 1.5rem;
 	margin: 5% auto;
 	text-align: center;
 	width: 40%;
-
 }
+
+// --- contact ---
+
+.contact {
+	background-color: $blueGreen;
+	border-radius: 15px 15px 0 0;
+	color: #ffff;
+	margin: 5% 0 0;
+	padding: 2% 15%;
+}
+
+.contact-button {
+	color: $textColor
+}
+
+.contact-icon {
+	font-size: 2rem;
+	margin: 1rem;
+}
+
+.contact-icon:hover {
+	opacity: .7;
+}
+
+
+// --- @media ---
 
 @media (max-width: 991px) {
 	body {
@@ -117,14 +149,21 @@ h2 {
 	}
 
 	.logo {
-		margin: 10% auto;
+		margin: 5% auto;
 		padding: 0;
 
 	}
 
 	.header {
-		margin: 10% auto;
+		margin: 5% auto;
 		padding: 0;
 
+	}
+
+	.tagline {
+		font-size: 1rem;
+		margin: 5% auto;
+		text-align: center;
+		width: 50%;
 	}
 }
