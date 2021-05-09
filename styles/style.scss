@@ -2,14 +2,15 @@
 $green: #90bf3e;
 $blue: #60aee0;
 $blueGreen: #27b5c3;
-$textColor: #5c5a5b;
+$dark: #5c5a5b;
 
 
 // --- Elements ---
 body {
-	color: $textColor;
+	color: $dark;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
+	width: 100%;
 
 }
 
@@ -23,9 +24,13 @@ h2 {
 	font-weight: 400;
 }
 
+p {
+	font-family: 'Poppins', sans-serif;
+}
+
 // --- Globals ---
 
-.text-accent {
+.blue-accent {
 	color: $blue;
 }
 
@@ -50,12 +55,29 @@ h2 {
 
 .logo {
 	margin: auto;
-	padding-left: 10%;
+	padding-left: 15%;
 }
 
 .title-heading {
 	font-size: 5rem;
 	margin: 0;
+
+}
+
+.title-image {
+	border: 5px solid $blue;
+	border-radius: 50%;
+	filter: grayscale(20%);
+	height: 16rem;
+	overflow: hidden;
+	width: 16rem;
+
+
+}
+
+.header {
+	margin: auto;
+	padding-right: 15%;
 }
 
 .title-icon {
@@ -67,28 +89,23 @@ h2 {
 	color: $green
 }
 
-
-
-
-.title-image {
-	border: 5px solid $textColor;
-	border-radius: 50%;
-	height: 12rem;
-	overflow: hidden;
-	width: 12rem;
-
-}
-
-.header {
-	margin: auto;
-	padding-right: 10%;
-}
-
 .tagline {
 	font-size: 1.5rem;
 	margin: 5% auto;
 	text-align: center;
 	width: 40%;
+}
+
+// --- showcase ---
+
+.showcase-carousel {
+	margin: 50px 0;
+}
+
+.showcase-image {
+	border-radius: 10px;
+	height: 20rem;
+	margin: auto auto;
 }
 
 // --- contact ---
@@ -101,13 +118,16 @@ h2 {
 	padding: 2% 15%;
 }
 
-.contact-button {
-	color: $textColor
+.contact-content {
+	line-height: 2;
 }
+
+
 
 .contact-icon {
 	font-size: 2rem;
 	margin: 1rem;
+
 }
 
 .contact-icon:hover {
@@ -144,6 +164,11 @@ h2 {
 
 	}
 
+	.title-image {
+		height: 12rem;
+		width: 12rem;
+	}
+
 	.title-heading {
 		font-size: 3rem;
 	}
@@ -166,4 +191,13 @@ h2 {
 		text-align: center;
 		width: 50%;
 	}
+
+	// --- showcase ---
+
+	.showcase-image {
+		border-radius: 10px;
+		height: 10rem;
+		margin: auto auto;
+	}
+
 }
