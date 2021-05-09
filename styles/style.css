@@ -23,6 +23,14 @@ p {
   color: #60aee0;
 }
 
+.green-accent {
+  color: #90bf3e;
+}
+
+.blueGreen-accent {
+  color: #27b5c3;
+}
+
 .hori-rule {
   background-color: #ffff;
   border: 0;
@@ -113,10 +121,6 @@ p {
     margin: 0;
     padding: 0;
   }
-  .contact-icon {
-    font-size: 1rem;
-    margin: 0.5rem;
-  }
   .hori-rule {
     background-color: transparent;
     border: 0;
@@ -153,6 +157,10 @@ p {
     border-radius: 10px;
     height: 10rem;
     margin: auto auto;
+  }
+  .contact-icon {
+    font-size: 1rem;
+    margin: 0.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

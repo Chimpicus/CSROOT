@@ -33,6 +33,17 @@ p {
 
 .blue-accent {
 	color: $blue;
+
+}
+
+.green-accent {
+	color: $green;
+
+}
+
+.blueGreen-accent {
+	color: $blueGreen;
+
 }
 
 
@@ -144,10 +155,7 @@ p {
 	}
 
 
-	.contact-icon {
-		font-size: 1rem;
-		margin: 0.5rem;
-	}
+
 
 	.hori-rule {
 		background-color: transparent;
@@ -199,6 +207,14 @@ p {
 		border-radius: 10px;
 		height: 10rem;
 		margin: auto auto;
+	}
+
+
+	// --- contact ---
+
+	.contact-icon {
+		font-size: 1rem;
+		margin: 0.5rem;
 	}
 
 }
