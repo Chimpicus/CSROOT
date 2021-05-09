@@ -50,16 +50,26 @@ h2 {
 .title {
 	margin: auto;
 	padding: 1rem 4rem;
-	margin: 5% auto;
+	margin: 5% auto 0;
 }
 
 .title-heading {
 	font-size: 5rem;
+	margin: 0;
 }
 
 .logo {
 	margin: auto;
 	padding-left: 10%;
+}
+
+.title-image {
+	border: 5px solid $textColor;
+	border-radius: 50%;
+	height: 12rem;
+	overflow: hidden;
+	width: 12rem;
+
 }
 
 .header {
@@ -68,17 +78,31 @@ h2 {
 }
 
 .tagline {
+	font-size: 1rem;
 	margin: 5% auto;
 	text-align: center;
 	width: 40%;
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 991px) {
+	body {
+		margin: 0;
+	}
+
 
 	.contact-icon {
 		font-size: 1rem;
 		margin: 0.5rem;
+	}
+
+	.hori-rule {
+		background-color: transparent;
+		border: 0;
+		border-bottom: 10px dotted $green;
+		margin: auto;
+		width: 30%;
+
 	}
 
 	// Title
