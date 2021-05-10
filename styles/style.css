@@ -2,8 +2,8 @@ body {
   color: #5c5a5b;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+  max-width: 100%;
   overflow-x: hidden;
-  overflow-y: scroll;
   text-align: center;
   padding: 0;
   width: 100%;
