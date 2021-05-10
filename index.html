@@ -21,7 +21,10 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="styles/style.css" />
 
-  <title> Connor Root - Decorating Service
+  <!-- JavaScript -->
+  <script src="index.js"></script>
+
+  <title> CSROOT - Decorating Service
   </title>
 </head>
 
@@ -68,14 +71,15 @@
 
         <i class="title-icon fab fa-facebook-f"></i>
         <i class="title-icon fab fa-twitter"></i>
-        <i class="title-icon fas fa-phone-alt"></i>
-        <i class="title-icon fas fa-envelope"></i>
-      </div>
-    </div>
+        <br>
 
-    <div class="tagline">
-      <p>"Hi, I'm Connor, an <span class="blueGreen-accent">experienced</span> painter & decorator that holds customer <span class="blue-accent">satisfaction</span> at the heart of my
-        <span class="green-accent">service</span>."</p>
+      </div>
+
+      <div class="tagline">
+        <p>"Hi, I'm Connor, an <span class="blueGreen-accent">experienced</span> painter & decorator that holds customer
+          <span class="blue-accent">satisfaction</span> at the heart of my
+          <span class="green-accent">service</span>."</p>
+      </div>
     </div>
   </div>
 
@@ -85,7 +89,7 @@
 
   <div id="gallery">
     <hr class="hori-rule">
-    <div id="showcase-carousel" class="showcase-carousel carousel slide" data-bs-ride="carousel" pause="false">
+    <div id="showcase-carousel" class="showcase-carousel carousel slide" data-bs-ride="carousel" data-bs-pause="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="showcase-image" src="images/Image-1.jpg" class="d-block w-100" alt="Image 1">
@@ -102,17 +106,50 @@
   </div>
 
 
-<!-- --- contact --- -->
+  <!-- --- contact --- -->
 
 
   <div id="contact" class="contact">
     <h3 class="contact-content">Need a fresh coat?</h3>
-    <button type="button contact-button" class="btn btn-light text-secondary">Contact me!</button>
+    <button type="button contact-button" class="btn btn-light text-secondary" data-bs-toggle="modal"
+      data-bs-target="#contactModal">Contact me!</button>
+
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title contact-form-title" id="contactModalLabel">Contact</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <input class="form-control form-control-lg mb-3" type="text" name="name" id="name" placeholder="Name"
+                aria-label="Name" required>
+              <input class="form-control form-control-lg mb-3" type="email" name="email" id="email" placeholder="Email"
+                aria-label="email" required>
+              <input class="form-control form-control-lg mb-3" type="tel" name="phone" id="phone" placeholder="Phone"
+                minlength="11" maxlength="11" required>
+              <textarea class="form-control form-control-lg mb-3" name="message" id="message" cols="30" rows="10"
+                placeholder="Type your message here..." required></textarea>
+
+              <button type="submit" class="btn submit-button mb-3">Submit</button>
+            </form>
+
+          </div>
+          <div class="modal-footer">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
     <br>
     <i class="contact-content contact-icon fab fa-facebook-f"></i>
     <i class="contact-content contact-icon fab fa-twitter"></i>
     <i class="contact-content contact-icon fas fa-phone-alt"></i>
+    <!-- <p>07845 740 121</p> -->
     <i class="contact-content contact-icon fas fa-envelope"></i>
+    <!-- <p>connor111@live.co.uk</p> -->
 
   </div>
 

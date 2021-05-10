@@ -10,6 +10,7 @@ body {
 	color: $dark;
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
+	overflow-x: hidden;
 	text-align: center;
 	padding: 0;
 	width: 100%;
@@ -145,6 +146,21 @@ p {
 	opacity: .7;
 }
 
+.contact-form-title {
+	color: $blueGreen;
+}
+
+.submit-button {
+	background-color: $blueGreen;
+	color: #fff;
+	border: 2px solid $blueGreen;
+}
+
+.submit-button:hover {
+	background-color: #fff;
+	color: $blueGreen;
+}
+
 
 // --- @media ---
 
@@ -201,13 +217,13 @@ p {
 		width: 50%;
 	}
 
-	// --- showcase ---
+	// // --- showcase ---
 
-	.showcase-image {
-		border-radius: 10px;
-		height: 10rem;
-		margin: auto auto;
-	}
+	// .showcase-image {
+	// 	border-radius: 10px;
+	// 	height: 10rem;
+	// 	margin: auto auto;
+	// }
 
 
 	// --- contact ---
@@ -217,4 +233,14 @@ p {
 		margin: 0.5rem;
 	}
 
+}
+
+@media (max-width: 768px) {
+	// --- showcase ---
+
+	.showcase-image {
+		border-radius: 10px;
+		height: 10rem;
+		margin: auto auto;
+	}
 }

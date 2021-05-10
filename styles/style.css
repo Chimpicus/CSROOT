@@ -2,6 +2,7 @@ body {
   color: #5c5a5b;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+  overflow-x: hidden;
   text-align: center;
   padding: 0;
   width: 100%;
@@ -116,6 +117,21 @@ p {
   opacity: .7;
 }
 
+.contact-form-title {
+  color: #27b5c3;
+}
+
+.submit-button {
+  background-color: #27b5c3;
+  color: #fff;
+  border: 2px solid #27b5c3;
+}
+
+.submit-button:hover {
+  background-color: #fff;
+  color: #27b5c3;
+}
+
 @media (max-width: 991px) {
   body {
     margin: 0;
@@ -153,14 +169,17 @@ p {
     text-align: center;
     width: 50%;
   }
+  .contact-icon {
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
   .showcase-image {
     border-radius: 10px;
     height: 10rem;
     margin: auto auto;
-  }
-  .contact-icon {
-    font-size: 1rem;
-    margin: 0.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
