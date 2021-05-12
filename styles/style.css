@@ -42,6 +42,11 @@ p {
   width: 15%;
 }
 
+.nav-button {
+  border-color: transparent;
+  color: #5c5a5b;
+}
+
 .title {
   margin: auto;
   padding: 1rem 4rem;
